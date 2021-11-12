@@ -11,7 +11,7 @@
         }
         //conectado, desconectado, chamando, encerrada, conversando
         if (e.data.message == 'status') {
-            //alert('Status: ' + e.data.status);
+            alert('Status: ' + e.data.status);
         }
         //o id é único e pode ser utilizado na api para recuperação de mais informações (get na api ou webhooks) 
         if (e.data.message == 'chamada_id') {
